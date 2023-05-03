@@ -12,37 +12,10 @@ body {
     padding: 15px;
 }
 
-.head2{
-    background-color: #e6e7e9;
-    padding: 15px;
-}
-
-.head3{
-    background-color: white;
-    padding: 15px;
-    text-align: center;
-}
-
 .gov:hover{
     border: 2px dashed black;
 }
 
-.logo{
-    margin-left: 25px;
-    transition: transform 0.5s;
-}
-
-.logo:hover{
-    transform: scale(1.2);
-}
-
-.logo2{
-    margin: auto;
-}
-
-.logo2:hover{
-    border: 2px dashed black;
-}
 .contenedor {
     width: 100%;
     padding: 20px;
