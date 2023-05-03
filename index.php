@@ -25,27 +25,27 @@
         </div>
         <div class="input-contenedor">
             <i class="fas fa-user icon"></i>
-        <input type="text" placeholder="Nombres" name="nombre" class="contra" Required>
+        <input type="text" placeholder="Nombres" name="nombre" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-user icon"></i>
-        <input type="text" placeholder="Apellidos" name="apellido" class="contra" Required>
+        <input type="text" placeholder="Apellidos" name="apellido" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-birthday-cake icon"></i>
-        <input type="text" placeholder="Fecha De Nacimiento" name="fecha" class="contra" Required>
+        <input type="text" placeholder="Fecha De Nacimiento" name="fecha" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-map icon"></i>
-        <input type="text" placeholder="Direccion" name="direccion" class="contra" Required>
+        <input type="text" placeholder="Direccion" name="direccion" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-phone icon"></i>
-        <input type="text" placeholder="Telefono" name="telefono" class="contra" Required>
+        <input type="text" placeholder="Telefono" name="telefono" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-envelope icon"></i>
-        <input type="text" placeholder="Email" name="email" class="contra" Required>
+        <input type="text" placeholder="Email" name="email" class="contra">
         </div>
         <button type="button" onclick="mostrarFormulario2()" class="button">Siguiente</button>
         <input type="submit" name="registrar" value="Registrar" class="button">
@@ -62,11 +62,11 @@
         </div>
         <div class="input-contenedor">
             <i class="fas fa-syringe icon"></i>
-        <input type="text" placeholder="Nombre De La Vacuna" name="nombre" class="contra" Required>
+        <input type="text" placeholder="Nombre De La Vacuna" name="nombre" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-flag icon"></i>
-        <input type="text" placeholder="Pais De Origen" name="pais" class="contra" Required>
+        <input type="text" placeholder="Pais De Origen" name="pais" class="contra">
         </div>
         <button type="button" onclick="mostrarFormulario1()" class="button">Anterior</button>
         <button type="button" onclick="mostrarFormulario3()" class="button">Siguiente</button>
@@ -92,15 +92,15 @@
         </div>
         <div class="input-contenedor">
             <i class="fas fa-calendar icon"></i>
-        <input type="text" placeholder="Fecha De La Primera Dosis" name="primera" class="contra" Required>
+        <input type="text" placeholder="Fecha De La Primera Dosis" name="primera" class="contra" >
         </div>
         <div class="input-contenedor">
             <i class="fas fa-calendar icon"></i>
-        <input type="text" placeholder="Fecha De La Segunda Dosis" name="segunda" class="contra" Required>
+        <input type="text" placeholder="Fecha De La Segunda Dosis" name="segunda" class="contra">
         </div>
         <div class="input-contenedor">
             <i class="fas fa-user icon"></i>
-        <input type="text" placeholder="Nombre De Quien Puso La Vacuna" name="doctor" class="contra" Required>
+        <input type="text" placeholder="Nombre De Quien Puso La Vacuna" name="doctor" class="contra">
         </div>
         <button type="button" onclick="mostrarFormulario2()" class="button">Anterior</button>
         <input type="submit" name="registrar" value="Registrar" class="button">
