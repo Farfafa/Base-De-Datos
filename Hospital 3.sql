@@ -12,15 +12,3 @@ PRIMARY KEY (ID),
 FOREIGN KEY (ID_Paciente) REFERENCES Paciente(IDPaciente),
 FOREIGN KEY (ID_Vacuna) REFERENCES Vacunas(IDVacunas)
 );
-
-
-use php;
-
-CREATE TABLE estudiante_carrera
-(
-Cedula_Estudiante INT NOT NULL,
-Codigo_Carrera VARCHAR(20),
-FOREIGN KEY (Cedula_Estudiante) REFERENCES persona(cedula),
-FOREIGN KEY (Codigo_Carrera) REFERENCES carrera(cod_carrera)
-);
-
