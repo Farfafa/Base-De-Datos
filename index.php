@@ -15,15 +15,6 @@
             <a href="https://www.gov.co" target="_blank"><img src="IMG/govco-logo-1200x242-1-600x121.png" class="gov" height="28.22px" width="140px" alt=""></a>
         </div>
     </div>
-    
-    <div class="head2">
-        <div>
-            <a href="https://web.facebook.com/esecarmenemiliaospina"  target="_blank" title="Facebook"><img src="IMG/facebook.png" class="logo" height="32.22px" width="32.22px"></a>
-            <a href="https://twitter.com/CarmenEmiliaESE" target="_blank" title="Twitter"><img src="IMG/gorjeo.png" class="logo" height="32.22px" width="32.22px"></a>
-            <a href="https://www.instagram.com/esecarmenemiliaospina/" target="_blank" title="Instagram"><img src="IMG/instagram.png" class="logo" height="32.22px" width="32.22px"></a>
-            <a href="https://www.youtube.com/channel/UCiBJ-_Re-yKriwrHogHzvlQ" target="_blank" title="Youtube"><img src="IMG/youtube.png" class="logo" height="32.22px" width="32.22px"></a>
-        </div>
-    </div>
 
     <form action="insertar.php" method="post" class="formulario" id="formulario1">
     <h1>1. Registrar Datos De Paciente</h1>
