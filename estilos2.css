@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head{
+  background-color: #134ce1;
+  padding: 15px;
+}
+
+.head2{
+  background-color: #e6e7e9;
+  padding: 15px;
+}
+
+.head3{
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.gov:hover{
+  border: 2px dashed black;
+}
+
+.logo{
+  margin-left: 25px;
+  transition: transform 0.5s;
+}
+
+.logo:hover{
+  transform: scale(1.2);
+}
+
+.logo2{
+  margin: auto;
+}
+
+.logo2:hover{
+  border: 2px dashed black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid black;
+  border: 2px solid; 
+  border-color: red;
+  background-color: #e6e7e9; 
+  border-collapse: collapse; 
+  text-align: center;
+}
+
+td{
+  border: 1px solid black;
+  border: 2px solid; 
+  border-color: red; 
+  background-color: aqua;
+  border-collapse: collapse; 
+  text-align: center;
+}
+
+.button {
+  border: none;
+  width: 25%;
+  color: black;
+  font-size: 20px;
+  background: #134ce1;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Showcard Gothic';
+}
+.button:hover {
+  background: #e6e7e9;
+  border-radius: 5px;
+}
+
+.button2 {
+  border: none;
+  width: 35%;
+  color: black;
+  font-size: 20px;
+  background: #134ce1;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Showcard Gothic';
+}
+.button2:hover {
+  background: #e6e7e9;
+  border-radius: 5px;
+}
+
+.button3{
+  background-color: red;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 30%;
+    padding: 5px;
+    border: solid;
+    color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Showcard Gothic';
+}

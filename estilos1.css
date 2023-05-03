@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: #134ce1;
+    padding: 15px;
+}
+
+.head2{
+    background-color: #e6e7e9;
+    padding: 15px;
+}
+
+.head3{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.gov:hover{
+    border: 2px dashed black;
+}
+
+.logo{
+    margin-left: 25px;
+    transition: transform 0.5s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.logo2{
+    margin: auto;
+}
+
+.logo2:hover{
+    border: 2px dashed black;
+}
+.contenedor {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contenedor2 {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.formulario{
+    margin-top: 100px;
+    padding: 3px;
+    border: 5px solid black;
+    margin-left: 30%;
+    display: inline-block;
+    width: 500px;
+    margin-top: 5%;
+    border-radius: 15%;
+}
+
+.formulario2{
+    margin-top: 100px;
+    padding: 3px;
+    float: right;
+    border: 5px solid black;
+    margin-right: 30%;
+    width: 500px;
+    margin-top: 15%;
+    border-radius: 15%;
+}
+
+.formulario3{
+    margin-top: 100px;
+    padding: 3px;
+    border: 5px solid black;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 15%;
+}
+
+#formulario2, #formulario3 {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Showcard Gothic';
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    color: black;
+}
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 3px solid rgb(72, 228, 243);
+    border-radius: 5px;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color:black;
+
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    background: #134ce1;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Showcard Gothic';
+}
+    .button:hover {
+        background: #e6e7e9;
+        border-radius: 5px;
+    }
+
+    .button + .button {
+        margin-top: 10px;
+    }
+    
+.button2 {
+    border: none;
+    color: black;
+    font-size: 30px;
+    background: #134ce1;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Showcard Gothic';
+    position: absolute;
+    top: 165%;
+    left: 40%;
+
+}
+.button2:hover {
+    background: #e6e7e9;
+    border-radius: 5px;
+}
+p {
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 3px gold;
+}
+.link{
+    text-decoration: none;
+    color: #134ce1;
+    font-weight: 600;
+}
+.link:hover{
+    color: cadetblue;
+}
+.name {
+    background-color: rgb(5, 19, 64);
+    border-radius: 5px;
+}
+.correo {
+    border-radius: 5px;
+}
+.contra {
+    border-radius: 5px;
+}
